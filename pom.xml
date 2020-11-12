@@ -9,6 +9,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
+        <sonar.projectKey>productivity</sonar.projectKey>
+        <sonar.host.url>http://ip172-18-0-66-bumaiopqckh000b2pag0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+        <sonar.login>7fc6e8e10e13163ab42909f998a76bb10cdee173</sonar.login>	
+        <sonar.language>java</sonar.language>	
+        <sonar.sources>src/main/java</sonar.sources>
+        <sonar.java.binaries>target/classes</sonar.java.binaries>
         <java.version>1.8</java.version>
         <spring-boot.version>1.5.3.RELEASE</spring-boot.version>
         <hibernate.version>5.0.12.Final</hibernate.version>
